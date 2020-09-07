@@ -12,10 +12,10 @@ const TodoListItem = (props) => {
     important,
   } = props;
   let classNames = `todo-list-item`;
+
   if (done) {
     classNames += ` done`;
   }
-
   if (important) {
     classNames += ` important`;
   }
